@@ -1,0 +1,144 @@
+# ===== Python / General =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+.env
+.venv/
+env/
+env.bak/
+pip-wheel-metadata/
+pip-log.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+.pytest_cache/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Type checking / mypy / pyright
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Logs & debugging
+*.log
+logs/
+debug.log
+
+# Django / Flask / FastAPI stuff (harmless to ignore even if unused)
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+instance/
+.webassets-cache
+
+# Cache / temp
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors / IDE
+.vscode/
+*.code-workspace
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage / profiling
+*.prof
+profiler-output/
+
+# Compiled bytecode backup
+*~
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/*.lock
+
+# Autogen / model artifacts (if any appear)
+*.model
+*.ckpt
+*.bin
+
+# Docker artifacts
+docker-compose.override.yml
+*.tar
+
+# Node (if later added for frontend assets)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Environment variables / secrets
+*.env
+*.env.*
+!example.env
+
+# Generated solution file (optional keep; comment out if you want to commit)
+solution.py
+temp/solution.py
+temp/solutions.py
+
+# Lock / state
+*.lock
+
+# Misc
+__pypackages__/
+poetry.lock
+pipenv.lock
+
