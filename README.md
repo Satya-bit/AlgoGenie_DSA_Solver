@@ -4,8 +4,15 @@
 AlgoGenie DSA Solver is an interactive AI-driven system that helps users solve Data Structures & Algorithms (DSA) problems. It combines a reasoning LLM "problem solver" agent with a secure, containerized "code executor" agent. The UI (built with Streamlit) lets a user submit a problem, observe the multi‑agent conversation as it incrementally reasons, generates Python code, executes it inside a Docker sandbox, validates results with test cases, and finally provides a downloadable `solution.py` file.
 ## UI
 
-<img width="1900" height="620" alt="d6" src="https://github.com/user-attachments/assets/929bfa1c-d677-4e80-878c-7781279ad633" />
+<img width="1912" height="547" alt="d2" src="https://github.com/user-attachments/assets/f45530c4-d057-4571-b0a2-dc35b583e53b" />
 
+<img width="1911" height="987" alt="d3" src="https://github.com/user-attachments/assets/eeea97a3-b619-48d9-9a7a-e585610b1518" />
+
+<img width="1874" height="938" alt="d4" src="https://github.com/user-attachments/assets/e32ec56b-61e2-46ac-bbd6-8156a16f503f" />
+
+<img width="1175" height="853" alt="d5" src="https://github.com/user-attachments/assets/07fe9257-ec9e-47a1-b7ed-afb38d369207" />
+
+<img width="1900" height="620" alt="d6" src="https://github.com/user-attachments/assets/7e327dbe-4120-48cb-854f-9a73075910d3" />
 
  
 ## What the Code Does (High-Level Flow)
