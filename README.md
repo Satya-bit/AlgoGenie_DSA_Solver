@@ -114,38 +114,8 @@ Model client is constructed in `config/settings.py` using `OPENAI_API_KEY` (load
 
 ## System Architecture (Conceptual)
 ```
-           +---------------------+
-           |      User (UI)      |
-           +----------+----------+
-                      |
-                      v
-           +---------------------+
-           |   Streamlit App     |
-           | (input + streaming) |
-           +----------+----------+
-                      |
-                      v
-           +---------------------+
-           | RoundRobinGroupChat |
-           +----+-----------+----+
-                |           |
-      (plan/code)|           |(exec results)
-                v           v
-     +----------------+  +------------------+
-     | Problem Solver |  | Code Executor    |
-     |  (LLM Agent)   |  |  Agent (Docker)  |
-     +--------+-------+  +---------+--------+
-              |                     |
-              | (code to run)       |
-              v                     v
-          +-------------------------------+
-          | Docker Sandbox (work_dir=temp)|
-          +-------------------------------+
-                      |
-                      v
-             +------------------+
-             | solution.py file |
-             +------------------+
-```
+<img width="853" height="659" alt="image" src="https://github.com/user-attachments/assets/43b6862b-4980-41e1-877e-abf99f4fb716" />
+
+    
 
 
