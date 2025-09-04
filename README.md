@@ -113,8 +113,8 @@ Model client is constructed in `config/settings.py` using `OPENAI_API_KEY` (load
 - Persist session transcripts & solutions to a database.
 
 ## System Architecture (Conceptual)
-```
-<img width="853" height="659" alt="image" src="https://github.com/user-attachments/assets/43b6862b-4980-41e1-877e-abf99f4fb716" />
+
+<img width="853" height="659" alt="image" src="https://github.com/user-attachments/assets/7abeb79e-bcd5-4030-a94a-d3ae575e1b85" />
 
     
 
