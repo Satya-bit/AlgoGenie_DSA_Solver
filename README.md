@@ -136,8 +136,4 @@ Model client is constructed in `config/settings.py` using `OPENAI_API_KEY` (load
              +------------------+
 ```
 
-## License
-(Insert your chosen license here, e.g., MIT, if applicable.)
 
----
-Feel free to adjust this README to add run instructions, screenshots, or deployment notes if you later expand scope.
